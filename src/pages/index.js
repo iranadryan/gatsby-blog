@@ -1,5 +1,18 @@
-import React from "react"
+import React from 'react';
+import { Link } from 'gatsby';
 
-export default function Home() {
-  return <div>Hello world!</div>
+import Head from '../components/head';
+import Layout from '../components/Layout';
+
+const Index = () => {
+  return (
+    <Layout>
+      <Head title="Home" />
+      <h1>Hello.</h1>
+      <h2>I'm Adryan, a full stack developer living in terrible Brazil.</h2>
+      <p>Need a developer? <Link to="/contact">Contact me</Link></p>
+    </Layout>
+  );
 }
+
+export default Index;
