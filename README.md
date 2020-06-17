@@ -15,7 +15,7 @@ Criado com:
   
 
 ## Resultados
-<p align="center"><img src="GatsbyBlog.png" alt="MemeMaker mockup" height="430"/></p>
+<p align="center"><img src="GatsbyBlog.png" alt="MemeMaker mockup" /></p>
 
 ## Execute a aplicação  
 Para executar é necessário uma conta no contentful e criar um content model com os seguintes campos:
